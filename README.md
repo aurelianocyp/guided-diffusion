@@ -40,7 +40,7 @@ sudo apt-get update
 pip install --upgrade pip
 pip install --upgrade setuptools
 sudo apt install libopenmpi-dev
-pip install mpi4py
+conda install mpi4py
 python scripts/classifier_sample.py SAMPLE_FLAGS="--batch_size 4 --num_samples 100 --timestep_respacing 250"
 ```
 
