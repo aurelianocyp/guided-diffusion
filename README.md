@@ -35,7 +35,7 @@ We assume that you have downloaded the relevant model checkpoints into a folder 
 For these examples, we will generate 100 samples with batch size 4. Feel free to change these values.
 
 ```
-SAMPLE_FLAGS="--batch_size 4 --num_samples 100 --timestep_respacing 250"
+python scripts/classifier_sample.py SAMPLE_FLAGS="--batch_size 4 --num_samples 100 --timestep_respacing 250"
 ```
 
 ## Classifier guidance
